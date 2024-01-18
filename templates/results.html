@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Results Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recommendation.html">Recommendation Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="results-section">
+            <h2>Results Dashboard</h2>
+            <p>The predicted plugin based on user input is: {{ predicted_plugin }}</p>
+            <p>The predicted codec based on user input is: {{ predicted_codec }}</p>
+            <p>The predicted level based on user input is: {{ predicted_level }}</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Compression Master, AMMOGDEVS. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
